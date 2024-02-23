@@ -3,13 +3,13 @@ Remove diacs in a directory tree
 
 ```
 
-## Nom :
+ Nom :
         diacs_dirs_or_files.sh
 
-## Synopsis :
+ Synopsis :
         diacs_dirs_or_files.sh [REPERTOIRE]...
 
-## Description :
+ Description :
         Programme qui, pour un repertoire passe en parametre,
         renomme tous les noms de fichiers et de repertoires
         incluant le repertoire passe en parametre et ce, pour
@@ -22,7 +22,7 @@ Remove diacs in a directory tree
         repertoires se nomme "AlphaNumérique" et "AlphàNumerique",
         le second qui sera renomme se fera ajouter un suffixe.
 
-## Exemples d’utilisations :
+ Exemples d’utilisations :
 
         ./diacs_dirs_or_files.sh untitled\ folder/
         ./diacs_dirs_or_files.sh /home/user/Desktop/1234
