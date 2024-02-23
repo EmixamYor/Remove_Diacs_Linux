@@ -27,4 +27,29 @@ Remove diacs in a directory tree
         ./diacs_dirs_or_files.sh untitled\ folder/
         ./diacs_dirs_or_files.sh /home/user/Desktop/1234
 
+----
+
+ Name :
+        diacs_dirs_or_files.sh
+
+ Synopsis :
+        diacs_dirs_or_files.sh [DIRECTORY]...
+
+ Description :
+        Program which, for a directory passed as a parameter,
+        renames all file and directory names
+        including the parameterized directory, for
+        the entire directory tree.
+        It will replace :
+          - Each diacritical mark by its closest ASCII character.
+          - Some other characters and spaces with a '_'.
+        If at the same location in the tree, 2 files or
+        directories are called "AlphaNumérique" and "AlphàNumerique",
+        the second to be renamed will have a suffix added.
+
+ Examples of uses :
+
+        ./diacs_dirs_or_files.sh untitled\ folder/
+        ./diacs_dirs_or_files.sh /home/user/Desktop/1234
+
 ```
